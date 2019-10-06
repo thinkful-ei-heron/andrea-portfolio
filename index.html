@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Andrea Bender -Developer</title>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav role= 'navigation' class='nav'>
+        <!-- <div class='logo'>
+            <img class= 'logo' src="tinified/logo.png" alt="logo">
+        </div> -->
+        <div id='menu'>
+            <ul class='menu-list'>
+                <li class= 'active'><a class='scroll' href="#">Home</a></li>
+                <li><a class= 'scroll' href="#portfolio">Portfolio</a></li>                
+                <li><a class= 'scroll' href="#about">About Me</a></li>
+                <li><a class= 'scroll' href="#contact">Contact</a></li>
+            </ul>
+        </div> 
+        <div class="handle"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></div> 
+    </nav>
+    <br>
+    <br>
+    <br>
+        <header id='hero'>
+            <!-- <div>
+              <h1>Andrea Bender</h1>
+            </div> -->
+            <div class="col-xs-12 bottom">
+                    <a href="#about" class="scroll">
+                        <div id="scientist" class=" animated slideInDown scientist" style="opacity: 1;">
+                            <div id="scientist-desc" class="description" style="opacity: 1;">
+                                <h1 id="sci" class="">Biologist</h1>
+                                <!-- <p id="show1">Hypothesis experimention and results.</p> -->
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#portfolio" class="scroll">
+                        <div id="developer" class="animated slideInDown description" style="opacity: 1;">
+                            <h1 id="code" class="">Web Developer</h1>
+                            <!-- <p id="show2">Coding one $('.button').click() <br>at a time.</p> -->
+                        </div>
+                    </a>
+                    <a href="#skills" class="scroll">
+                            <div id='phylo'>
+                                    <img class='heroimg' src="tinified/phylotree.jpg" alt="phylogenetic tree of life">
+                            </div>
+                    </a>
+            </div>
+            
+           <br>
+
+        </header>
+        <!-- Portfolio Section -->
+        <section id='portfolio'>
+            <div class='row'>
+                <h1>Portfolio</h1>
+            </div>
+            <div id='projects' data-ride='carousel' data-interval='false'>
+                <div class='row'>
+                    <div>
+                        <div class=' carousel-inner' role='listbox'>
+                            <div class='item active'>
+                                <div class='proj1'>
+                                    <img src="" alt="">
+                                </div>
+                    <div>
+                        <div class='carousel-caption'>
+                            <h3>Quiz App</h3>
+                            <h4>An Interactive Quiz on the TV show "It's Always Sunny in Philadelphia"</h4>
+                            <button class='btn' data-toggle='modal' data-target='#quizapp'>
+                                <a href="https://thinkful-ei-heron.github.io/nate-andrea-quizzapp/">View Live Site</a>
+                            </button>
+                            <button class='btn' data-toggle='modal' data-target='#quizapp'>
+                                <a href="https://github.com/thinkful-ei-heron/nate-andrea-quizzapp.git">View Git</a>
+                            </button>
+
+                        </div>
+                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='item'>
+                        <div class='sm-7'>
+                            
+                            <img class= 'quizzpic' src="tinified/quizapp3.png" alt="end of quiz app page">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-1">
+                    </div>
+                    <!-- / Next Btn -->
+                    <div class="col-xs-12">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators mt-30">
+                            <li data-target="#projects" data-slide-to="0" class="active"></li>
+                            <li data-target="#projects" data-slide-to="1"></li>
+                            <li data-target="#projects" data-slide-to="2"></li>
+                        </ol>
+                    </div>
+            </div>
+        </section>
+        <!-- About Me Section -->
+        <section id='about'>
+            <div class='row'>
+                <h1>About Me</h1>
+            </div>
+            <div class='row'>
+                <div id='aboutimg' class='about-img'>
+                    <img class= 'aboutimg' src="tinified/aboutme.jpeg" alt="picture of me">
+                </div>
+                <div id='aboutcontainer' class='container-about'>
+                    <div>
+                        <p>Aspiring web developer that is currently enrolled in Thinkful’s software engineering
+                        immersion course. My drive to turn information into action contributes to my pursuit of 
+                        academic advancement. I try to keep a mindful and fierce approach to test-driven development 
+                        through my background in technical training and client relations.</p>  
+
+                    </div>
+                    <br>
+                    <div>
+                        <p>My background in biology has taught me that with any experiment there will be <em>a lot</em>
+                        of failure and some successes, but the drive and perseverence through those experiences make
+                        the end result feel like a greater accomplishment. From working in a parasitic manipulation lab,
+                        the Forest Service, and a top craft ten brewery in the nation I have learned how to adapt and go from 
+                        knowing little to feeling accomplished and comfortable in each of those different fields. I am ready
+                        to bring my passion and drive for success to any workplace I am at. 
+                        </p>  
+        
+                    </div>
+                    <br>
+                    <div>            
+                        <p>Born and raised in West Palm Beach, FL, but currently based in Boulder, CO. When I’m 
+                        not coding, I enjoy climbing in the alpine, reading about divisive issues that shape our 
+                        society, adventuring through new places, or relaxing with some yoga.</p>
+                    </div>
+                </div>
+                <!-- <div class= 'moreaboutimg'>
+                    <img id='pic' src="tinified/IMG_8647.jpeg" alt="carpenter ant infected with Ophiocordyceps">
+                    <img id='pic' src="tinified/IMG_0453.jpeg" alt="andrea working for the USFS">
+                    <img id='pic' src="tinified/IMG_0575.JPG" alt="andrea rock climbing">
+                </div> -->
+                
+                <!-- <div>
+                    <button class='btn'>View Resume</button>
+                </div> -->
+
+            </div>
+            
+        </section>
+        <section id='skills'>
+           <div>
+               <h1>Skills</h1>
+           </div>
+           <div class="container">
+                <div class="image-wrapper">
+                    <div class="image-item insta-page">
+                        <a class="image insta-image">
+                            <img class="logos" src="tinified/HTML5_Logo_512.png" alt="HTML5"> </a>
+                    </div>
+
+                    <div class="image-item insta-page">
+                        <a class="image insta-image">
+                            <img class="logos" src="tinified/JS.png" alt="Javascript"> </a>
+                    </div>
+
+                    <div class="image-item insta-page">
+                        <a class="image insta-image">
+                            <img class="logos" src="tinified/github_logo.jpg"alt="GitHub"> </a>
+                    </div>
+                    <div class="image-item insta-page">
+                        <a class="image insta-image">
+                            <img class="logos" src="tinified/VSC.png"alt="Visual Studio Code"> </a>
+                    </div>
+                    <div class="image-item insta-page">
+                        <a class="image insta-image">
+                            <img class="logos" src="tinified/jQuery.png"alt="jQuery"> </a>
+                    </div>
+                    <div class="image-item insta-page">
+                        <a class="image insta-image">
+                            <img class="logos" src="tinified/css_3.png"alt="CSS3"> </a>
+                    </div>
+                    <div class="image-item insta-page">
+                        <a class="image insta-image">
+                            <img class="logos" src="tinified/node_logo.jpg" alt="CSS3"> </a>
+                    </div>
+
+        </section>
+    <footer id='contact' role='content-info'>
+        <div class='contactme'>
+            <h1>Contact Me</h1>
+        </div>
+        <div class='contact-info'>
+            <ul class='contact-list'>
+                <li>
+                    <span>Boulder, CO</span>
+                </li>
+                <br>
+                <li>
+                    <a href="tel:5613292239"><span>561 329 2239</span></a>
+                </li>
+                <br>
+                <li>
+                    <a href="mailto:andreab.1726@gmail.com"><span>andreab.1726@gmail.com</span></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
